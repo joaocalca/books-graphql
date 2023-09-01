@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    open-in-view: false
+
+  graphql:
+    graphiql:
+      enabled: true
+
+logging:
+  level:
+    sql: debug
